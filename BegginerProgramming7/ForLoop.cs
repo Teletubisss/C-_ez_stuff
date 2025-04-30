@@ -6,7 +6,7 @@ var arrayOfInts = new int[numVal];
 
 var x = 0;
 
-Console.WriteLine("Now please enter the " + numVal + "values");
+Console.WriteLine("Now please enter the " + numVal + " values");
 
 while (x < arrayOfInts.Length)
 {
@@ -22,3 +22,10 @@ for (int i = 0; i < arrayOfInts.Length; i++)
 {
     Console.WriteLine(arrayOfInts[i]);
 }
+
+
+//foreach (string owoc in owoce)
+//{
+//    Console.WriteLine(owoc);
+//}    <-- inny sposób
+
