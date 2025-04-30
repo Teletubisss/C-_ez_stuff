@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BegginerProgramming", "CSharpConsoleApp1\BegginerProgramming.csproj", "{6A9F46EF-58D8-4AAF-B4AD-5BD0D14C755E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BegginerProgramming3", "BegginerProgramming3\BegginerProgramming3.csproj", "{8C3AE1AA-BFB1-4D34-8BBE-7A0B34E18938}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BegginerProgramming4", "BegginerProgramming4\BegginerProgramming4.csproj", "{BCB8F24F-36CF-4360-BDD1-2855FEC555AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BegginerProgramming5", "BegginerProgramming5\BegginerProgramming5.csproj", "{A9E8A59B-F30D-4ACE-93DF-956241BD2337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BCB8F24F-36CF-4360-BDD1-2855FEC555AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB8F24F-36CF-4360-BDD1-2855FEC555AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB8F24F-36CF-4360-BDD1-2855FEC555AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E8A59B-F30D-4ACE-93DF-956241BD2337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E8A59B-F30D-4ACE-93DF-956241BD2337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E8A59B-F30D-4ACE-93DF-956241BD2337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E8A59B-F30D-4ACE-93DF-956241BD2337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
