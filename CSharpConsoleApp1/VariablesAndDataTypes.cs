@@ -14,9 +14,3 @@ Console.WriteLine(newChar + " " + newString);
 Console.WriteLine();
 int sum = newNumber + 10;
 Console.WriteLine(sum);
-
-
-
-
-
-
