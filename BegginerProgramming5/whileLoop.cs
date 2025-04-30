@@ -18,3 +18,20 @@ while (number < 100)
 }
 
 Console.WriteLine("The number you entered was too large, the loop has ended...");
+
+
+Console.WriteLine("Please put a number to count to ten from: ");
+var userInput = Console.ReadLine();
+int userNumber = int.Parse(userInput);
+
+do
+{
+    if (userNumber > 10)
+    {
+        Console.WriteLine("Your number is too large!");
+    } else
+    {
+        Console.WriteLine("Count: " + userNumber);
+        userNumber++;
+    }
+} while (userNumber <= 10);

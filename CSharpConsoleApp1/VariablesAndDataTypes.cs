@@ -1,6 +1,7 @@
 ﻿//CHAR - jeden znak
 //STRING, INT, FLOAT
 //BOOL - true or false
+//VAR - zamiast innych - sam rozpozna
 
 
 char newChar = 'a';
