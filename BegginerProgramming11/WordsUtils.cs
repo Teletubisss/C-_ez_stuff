@@ -6,6 +6,10 @@
     {
         var rand = new Random();                         //new Random() - obiekt ktory randomuje, rand - zmienna 
         var randomWord = WordsUtils.Words[rand.Next(WordsUtils.Words.Length)];  //rand.Next losuje z zakresu 0 do length - 1
+        while (randomWord.Contains("-") && randomWord.Contains(" "))
+        {
+            randomWord = WordsUtils.Words[rand.Next(WordsUtils.Words.Length)];
+        }
         return randomWord;
     }
 }
