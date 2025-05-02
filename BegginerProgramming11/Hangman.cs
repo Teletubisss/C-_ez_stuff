@@ -84,6 +84,7 @@ public class Hangman
         else
         {
             Console.WriteLine("You lose!");
+            Console.WriteLine("Correct word: " + randomWord);
         }
     }
 
