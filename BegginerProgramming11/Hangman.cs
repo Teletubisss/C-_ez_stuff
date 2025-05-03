@@ -9,8 +9,8 @@ public class Hangman
 
     public void Run()
     {
-        var hangman = new Hangman();
-        string randomWord = hangman.GetValidWords();
+        var hangman = new Hangman();   //zmimenna z klasa hangman
+        string randomWord = hangman.GetValidWords();  //bierze z klasy Hangman funkcje GetValidWords
 
         int currentLives = 7;
         bool win = false;
